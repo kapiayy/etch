@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+html,body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(247, 247, 247);
+    flex-direction: column-reverse;
+    
+
+}
+.container{
+    display: flex;
+    
+    border: 2px solid rgb(0, 0, 0);
+    max-width: 400px;
+    max-height: 400px;
+    flex-wrap: wrap;
+}
+.squarediv{
+    flex-shrink: 1;
+    display: flex;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+button{
+    margin: 20px;
+    padding: 4px;
+}
