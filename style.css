@@ -6,30 +6,45 @@
 html,body{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    flex-direction: column;
     width: 100%;
     height: 100%;
     background-color: rgb(247, 247, 247);
-    flex-direction: column-reverse;
-    
-
+    padding: 16px;
+    gap: 64px;
 }
+
 .container{
     display: flex;
-    
-    border: 2px solid rgb(0, 0, 0);
-    max-width: 400px;
-    max-height: 400px;
     flex-wrap: wrap;
+    border: 2px solid rgb(0, 0, 0);
+    height: 400px;
+    width: 400px;
+    
 }
 .squarediv{
-    flex-shrink: 1;
-    display: flex;
+  
     background-color: red;
-    width: 100px;
-    height: 100px;
 }
 button{
     margin: 20px;
     padding: 4px;
+}
+.main{
+    display: flex;
+    
+}
+.sidebar  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+h1{
+    font-weight: bold;
+    font-size:32px;
+    padding: 16px;
+    border: 4px solid black;
 }
