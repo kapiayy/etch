@@ -22,11 +22,19 @@ const squarediv = document.createElement("div")
 
 
 
+
+
+
+
 buttonPrompt.addEventListener("click", () => {
     container.innerHTML = ''
     
     
+    
     let count = prompt("Square Count")
+    if(count >= 101){
+        count = 100
+    }
     
   
     
