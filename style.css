@@ -20,8 +20,8 @@ html,body{
     height: 400px;
     width: 400px;
     margin-top: 0;
-    padding: 10px;
-    transition-duration: 0.7s;
+   
+    transition-duration: 0.7s ;
     
 }
 .squarediv{
@@ -79,5 +79,5 @@ h1{
 .count:hover{
     background-color: black;
     color:white;
-    transition-duration: 0.8s;
+    transition-duration: 0.8s linear;
 }
